@@ -3,6 +3,9 @@
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
+using System.Globalization;
+using System.Reflection.Metadata.Ecma335;
+
 int startNum = GetNum("Введите значение N: ");
 int lastNumber = 1;
 Console.Write('"');
